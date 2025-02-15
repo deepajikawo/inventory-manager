@@ -16,22 +16,22 @@ Using Google Forms and Google Docs together allows you to streamline the creatio
 
 Data Collection with Google Forms:
 
-Setup: Create a Google Form with fields corresponding to the information needed in your document (e.g., client name, address, service details, pricing, dates, and other terms).
+1. Setup: Create a Google Form with fields corresponding to the information needed in your document (e.g., client name, address, service details, pricing, dates, and other terms).
 User Input: When someone fills out the form, their responses are automatically recorded in a connected Google Sheet.
 Template Creation in Google Docs:
 
-Design a Template: Draft a Google Docs template that serves as your contract, invoice, or agreement. In the template, insert placeholders (like {{client_name}}, {{date}}, or {{amount}}) where you want the form responses to appear.
+2. Design a Template: Draft a Google Docs template that serves as your contract, invoice, or agreement. In the template, insert placeholders (like {{client_name}}, {{date}}, or {{amount}}) where you want the form responses to appear.
 Customization: This template can include your branding, standard terms, and formatting that will be consistent across all generated documents.
 Automation with Google Apps Script:
 
-Script Development: Write a Google Apps Script that triggers when a new form submission is received.
+3. Script Development: Write a Google Apps Script that triggers when a new form submission is received.
 Data Merging: The script retrieves the form data from the Google Sheet, makes a copy of the Google Docs template, and replaces the placeholders with the actual data from the submission.
 Output Options: After generating the document, the script can save it in Google Drive, convert it to PDF, and even automatically email the document to relevant parties.
 Putting It All Together:
 
-Workflow: Once set up, your process will work as follows: a user fills out the Google Form → the response is saved in a Google Sheet → the Apps Script automatically creates a personalized document from the template → the final document is stored or shared as needed.
+4. Workflow: Once set up, your process will work as follows: a user fills out the Google Form → the response is saved in a Google Sheet → the Apps Script automatically creates a personalized document from the template → the final document is stored or shared as needed.
 
-Benefits: This approach saves time by eliminating manual data entry and ensures consistency across all documents while leveraging free tools available in the Google ecosystem.
+5. Benefits: This approach saves time by eliminating manual data entry and ensures consistency across all documents while leveraging free tools available in the Google ecosystem.
 This solution is especially useful for small businesses or individual professionals who need to generate standardized documents quickly without investing in expensive software.
 
 ### code
